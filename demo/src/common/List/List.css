@@ -1,0 +1,26 @@
+.commodity-box{ padding: .5rem; margin-bottom: 3rem; }
+.commodity-box2{ margin-bottom: 0; }
+.commodity{ overflow: hidden;}
+.commodity li{
+    float: left;
+    width: 32%;
+    margin-right: 2%;
+    margin-bottom: .25rem;
+    background-color: #fff;
+}
+.commodity li:nth-of-type(3),
+.commodity li:nth-of-type(6),
+.commodity li:nth-of-type(9){ margin-right: 0; }
+.commodity li span{ 
+    display: initial;
+    color: #1a1a1a; 
+    line-height: 1rem; 
+    font-size: .7rem; 
+    margin-top: .25rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;}
+.commodity li span.price{ color: #ed394a; font-size: .75rem; }
+.commodity li span.price s{ color: #a6a6a6; font-size: .6rem; }

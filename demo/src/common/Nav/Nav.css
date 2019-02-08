@@ -1,0 +1,6 @@
+/* nav */
+nav { background-color: #fff; padding: .5rem 0; margin-bottom: .5rem; border-bottom: 1px solid #e6e6e6;}
+.nav-box{ display: table; margin: 0 auto; }
+.nav-box a{  float: left; width: 2.8rem; margin: .5rem .4rem; display: block; font-size: .7rem; text-align: center;}
+.nav-box a span,
+.client a span{ margin-top: .25rem; display: inherit;}
